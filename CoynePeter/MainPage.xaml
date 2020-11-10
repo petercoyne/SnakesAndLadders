@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoynePeter.MainPage">
+    <StackLayout x:Name="SLPage" BackgroundColor="Black">
+        
+        <Grid x:Name="GrdBoard" Padding="0"
+              HorizontalOptions="Center" VerticalOptions="Start"
+              RowSpacing="0" ColumnSpacing="0"
+              HeightRequest="400" WidthRequest="400">
+
+            <!-- grid items will go here -->
+
+        </Grid>
+        <Label x:Name="LblFeedback" TextColor="White"
+               HorizontalOptions="CenterAndExpand" VerticalOptions="Start"
+               FontSize="32" Padding="16"></Label>
+        <StackLayout x:Name="SLLobby" Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand" VerticalOptions="Start"></StackLayout>
+        <StackLayout x:Name="SLButtons" Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <Button x:Name="BtnReset" Text="Reset" Clicked="ButtonResetClicked"
+                    Margin="16, 16, 0, 16" FontSize="16" CornerRadius="16"></Button>
+            <Button x:Name="BtnRoll" Text="Roll" Clicked="ButtonRollClicked"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="16" FontSize="16" CornerRadius="16"></Button>
+        </StackLayout>
+        
+
+    </StackLayout>
+</ContentPage>
