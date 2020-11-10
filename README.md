@@ -1,5 +1,5 @@
 # SnakesAndLadders
-Snakes and Ladders assignment for mobile app development
+Snakes and Ladders assignment for mobile app development. Tested on a Pixel 3a.
 
 ## Features
 * Smooth animation for multiple players per square
